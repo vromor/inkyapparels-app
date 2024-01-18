@@ -1,0 +1,155 @@
+.crimg{
+    width:50%;
+    height:auto;
+    /* border:2px  solid brown;  */
+    display: flex;
+    /* justify-content:center; */
+    margin-left: 5%;
+    /* margin-left: 5%; */
+    /* background-color: aqua; */
+
+}
+.imgCore{
+    width: 100%;
+    height:95%;
+     /* padding: 10px; */
+   
+     /* margin-left: 5%;
+   margin-right: 5%; */
+   animation: fadein 8s;
+  margin: auto;
+   padding: 5% 3% 5% 0%;
+
+   
+    
+}
+.coreprod{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+     margin-left: auto; 
+     margin-right: auto;
+   
+    height: 100%;
+    /* background:linear-gradient(180deg,rgb(215, 211, 211),rgb(205, 203, 203)); */
+   
+    background-color:#e9ecef;
+    border-radius: 30px 30px 30px 30px;
+}
+.corefeat{
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+.maincore{
+    width:100%;
+    /* background:linear-gradient(45deg,black,maroon); */
+    height: 700px;
+    padding-left: 3%;
+}
+.corefeat dd{
+    font-family: 'dosis';
+    font-size: 18px;
+    font-weight: 600;
+    text-align:start;
+    color: black;
+}
+.corefeat dt{
+    color: #f47216;
+    font-family: 'dosis';
+    font-size: 22px;
+    font-weight: 800;
+    text-align: justify;
+    letter-spacing: 3px;
+}.corefeat dl{
+    justify-content: space-around;
+}
+#headfeat{
+    text-align: center;
+    margin: auto;
+    /* opacity: 0.25; */
+    animation: fadein 5s;
+    color:#f47216;
+    font-family: 'Dosis';
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow:2px 2px orange;
+    /* position:absolute;
+    z-index: 100; */
+}
+
+@keyframes fadein {
+    0%{
+        opacity:0;
+        /* background-color: yellow; */
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#overlayfeat{
+    opacity: 0.25;
+}
+@media screen and (max-width: 768px){
+    .maincore{
+        width: 100%;
+       
+        margin-right: 20px;
+       
+        padding:0%;
+        vertical-align: center;
+    }
+    .coreprod{
+        display: block;
+        height: 600px;
+        /* margin: 0%; */
+        margin-left: 6%;
+    }
+    .corefeat dd{
+        display: none;
+    }
+    .corefeat dt{
+        display: block;
+        letter-spacing: 1px;
+        font-weight: 1000;
+    }
+    .corefeat{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .crimg{
+        width: 100%;
+        margin: 0%;
+        justify-content: center;
+    }
+    .imgCore{
+    width: 80%;
+    padding:0% 0% 0% 0%;
+    margin: 0%;
+     margin-top: 50px;
+     margin-bottom: 30px;
+    }
+   #headfeat{
+       padding: 0%;
+   }
+   #headfeat{
+    text-align: center;
+    margin: auto;
+    
+    animation: fadein 5s;
+    color:#f47216;
+    font-family: 'Dosis';
+    font-weight: 900;
+    font-size: 30px;
+    text-shadow:2px 2px orange;
+}
+}

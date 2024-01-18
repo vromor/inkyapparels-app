@@ -1,0 +1,172 @@
+.shopcategory-products{
+    display: grid;
+    margin-top: 40px;
+    margin-left: 90px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 30px;
+   
+}
+.shopcategory-indexsort{
+    display: flex;
+    margin: 0px 70px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#shop{
+    margin-top: 60px;
+}
+.productDisplay{
+
+
+    display: flex;
+}
+.filcol{
+   
+    display: list-item;
+}
+.Quck-lnk{
+    margin-top: 22px;
+    padding-top: 30px;
+    width: 20%;
+    border-right: 2px solid blue;
+    font-size: 20px;
+}
+.fillist{
+    padding: 20px;
+    margin: 30px;
+    font-family: 'Dosis';
+    list-style-type: none;
+    color:rgb(55, 55, 218);
+}
+#filter{
+    
+    margin: 5%;
+    font-family: 'Dosis';
+    color: rgb(244, 107, 107);
+    font-weight: 500;
+}
+.fillink{
+    text-decoration: none;
+    position: relative;
+}
+.fillink:hover:after{
+    width: 100%;
+    left: 0;
+  background: blue;
+    
+}
+.fillink:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 1.5px;
+    display: block;
+    margin-top:2px;
+    right: 0;
+    background: blue;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+}
+@keyframes moving {
+    0%{
+        left: 20px;
+    }
+    0%{
+        left: 20px;
+    }
+}
+/* Common styles for all screen sizes */
+@media (max-width: 768px) {
+.shopcategory-products {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 10px;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.shopcategory-indexsort {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#shop {
+    margin-top: 20px;
+}
+
+.productDisplay {
+    display: flex;
+    flex-direction: column;
+}
+
+.filcol {
+    display: list-item;
+}
+
+.Quck-lnk {
+    margin-top: 22px;
+    padding-top: 30px;
+    width: 100%; /* Full width on small screens */
+    border-right: none;
+    font-size: 20px;
+}
+
+.fillist {
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Dosis';
+    list-style-type: none;
+    color: rgb(55, 55, 218);
+    display: inline-block;
+}
+
+#filter {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Dosis';
+    color: rgb(244, 107, 107);
+    font-weight: 500;
+}
+
+.fillink {
+    text-decoration: none;
+    position: relative;
+}
+
+.fillink:hover:after {
+    width: 100%;
+    left: 0;
+    background: blue;
+}
+
+.fillink:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    display: block;
+    margin-top: 2px;
+    right: 0;
+    background: blue;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+}
+/* Responsive CSS for Mobile View */
+/* @media (min-width: 768px) {
+    .shopcategory-products {
+        grid-template-columns: 1fr 1fr; Adjust grid columns for tablets and larger devices */
+    /* }
+
+    .shopcategory-indexsort {
+        flex-direction: row;
+    }
+
+    .Quck-lnk {
+        width: 20%;
+        border-right: 2px solid blue;
+    }
+} */

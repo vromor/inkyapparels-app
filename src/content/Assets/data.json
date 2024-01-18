@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./1.png",
+      "new_price": 150,
+      "old_price": 2000
+    },
+    {
+      "id": 2,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./2.png",
+      "new_price": 150,
+      "old_price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./man1.png",
+      "new_price": 150,
+      "old_price": 2000
+    },
+    {
+      "id": 4,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./man2.png",
+      "new_price": 150,
+      "old_price": 2000
+    },
+    {
+      "id": 5,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./wom1.png",
+      "new_price": 150,
+      "old_price": 2000
+    },
+    {
+      "id": 6,
+      "name": "Cool Tops",
+      "category": "T-shirt",
+      "image":"./wom2.png",
+      "new_price": 150,
+      "old_price": 2000
+    }
+  ]

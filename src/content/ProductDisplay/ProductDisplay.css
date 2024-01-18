@@ -1,0 +1,227 @@
+
+.productdisplay{
+    display: flex;
+   /* margin:0px 50px; */
+}
+ .productdisplay-left{
+    display: flex;
+    gap: 17px;
+    
+    /* padding: 20px; */
+    margin-top: 50px;
+ }
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    margin-top: 100px;
+}
+.productdisplay-img-list img{
+    margin-top: 100px;
+    height:200px;
+   
+}
+.productdisplay-main-img{
+    width: 500px;
+    height: 700px;
+    margin-left: 60px;
+    margin-top: 80px;
+}  
+.productdisplay-right{
+    display: flex;
+    flex-direction: column;
+   margin-top: 150px;
+   margin-left: 3%;
+    gap: 17px;
+    /* margin-left: 40px;
+    padding: 20px; */
+}
+.productdisplay-right h1{
+    font-size: 45px;
+    font-family: 'Dosis';
+    font-weight: 800;
+}
+.productdisplay-right-prices{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    
+    gap:20px
+}
+.productdisplay-right-prices-old{
+    color:dimgrey ;
+    text-decoration: line-through;
+}
+.productdisplay-right-prices-new{
+    color: blue;
+}
+.productdisplay-right-size h2 , .productdisplay-right-colors h2{ 
+    margin-top: 20px;
+    font-family: 'Dosis';
+    font-weight: 600;
+}
+.productdisplay-right-sizes{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+} 
+.productdisplay-right-sizes div{
+    padding: 10px 15px;
+    background: blanchedalmond;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1.5px solid brown;
+}
+#cartbtn{
+    padding: 8px;
+    color: aliceblue;
+    background-color: crimson;
+    font-family: 'Dosis';
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.productdisplay-right-category{
+    font-family: 'Dosis';
+    font-weight: 750;
+    font-size: 18px;
+}
+#wpbtn{
+    padding: 8px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #23b33a;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+.productdisplay-right-color{
+    display: flex;
+    gap: 5px;
+    margin-left: 5%;
+}
+.colorCode{
+    border:none;
+    border-radius: 25px;
+    padding: 2px;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+#dispred{
+    background-color: red;
+}
+#dispblue{
+    background-color: blue;
+}
+#dispgreen{
+    background-color: green;
+}
+@media screen and (max-width: 769px){
+    /* Common styles for all screen sizes */
+.productdisplay {
+    display: flex;
+    margin: auto;
+    margin-top: 0%;
+    justify-content: center;
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: center; /* Center content on small screens */
+    /* margin-top: 10px; Adjust margin for smaller screens */
+    padding: 0% 5%;
+}
+
+.productdisplay-left {
+    display: block;
+    gap: 10px; /* Reduce the gap between elements */
+    margin: 0%;
+}
+
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    margin: 0%;
+  
+}
+
+.productdisplay-img-list img {
+    height: 400px; /* Adjust image height for responsiveness */
+    max-width: 100%; /* Ensure images don't overflow their container */
+    margin-bottom: 20px;
+    margin-top: 12%;
+}
+
+.productdisplay-main-img {
+    width: auto; /* Make the main image full-width */
+    height: 200px; /* Adjust image height for responsiveness */
+    /* margin-top: 20px; */
+    margin: auto;
+   
+}
+
+.productdisplay-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Reduce the gap between elements */
+    margin-top: 20px;
+    text-align: center; /* Center text content on small screens */
+}
+
+.productdisplay-right h1 {
+    font-size: 30px; /* Reduce the font size for smaller screens */
+}
+
+.productdisplay-right-prices {
+    display: flex;
+    font-size: 20px; /* Reduce font size for smaller screens */
+    gap: 10px; /* Reduce the gap between elements */
+    margin:auto;
+}
+
+.productdisplay-right-prices-old {
+    color: dimgrey;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-prices-new {
+    color: blue;
+}
+
+.productdisplay-right-size h2 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+    gap: 5px; /* Reduce the gap between elements */
+    margin: 10px 0;
+}
+
+.productdisplay-right-sizes div {
+    padding: 5px 10px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Reduce font size for smaller screens */
+}
+
+#cartbtn {
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Reduce font size for smaller screens */
+}
+
+.productdisplay-right-category {
+    font-size: 16px; /* Reduce font size for smaller screens */
+}
+
+#wpbtn {
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Reduce font size for smaller screens */
+}
+.productdisplay-right-color{
+    display: flex;
+    gap: 5px;
+    margin-left: 10%;
+}
+}

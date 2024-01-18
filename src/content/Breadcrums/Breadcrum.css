@@ -1,0 +1,18 @@
+.breadcrum{
+     margin-top:20px; 
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left:50px;
+}
+.breadlink{
+    text-decoration: none;
+    color: #f47216;
+}
+.breadlink:hover{
+    transform:scale(1.02) ;
+    transition: 0.8s;
+    color:brown;
+}

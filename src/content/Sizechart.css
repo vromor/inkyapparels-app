@@ -1,0 +1,40 @@
+.sizechart{
+    border: 2px solid black;
+  height:278px;
+  width:400px;
+  background-color:floralwhite;
+}
+.popupchart{
+    border: 2px solid black;
+    height: 800px;
+    width:800px;
+    background-color:antiquewhite;
+    position:center;
+}
+.sizeTable{
+    margin: auto;
+    padding: 2px;
+}
+/* [role=tooltip].popup-content {
+    width: 1000px;
+    box-shadow: 0 0 3px rgba(0,0,0,.16);
+    border-radius: 5px;
+} */
+th, td {
+    padding: 5px;
+    text-align:center;
+  }
+.popbtn{
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    
+}
+@media screen  and (min-width:769px){
+   .popupchart{
+       position:center;
+   }
+    
+} 

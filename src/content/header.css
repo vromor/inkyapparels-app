@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    padding: 10px;
+    
+    height: 100px;
+    width: auto;
+    background-color:beige
+}
+#img{
+    width: 30%;
+    /* border: 2px solid blue; */
+    padding: 0;
+    background-size: cover;
+   
+}
+#search{
+    width: 35%;
+    justify-content: center;
+     /* border: 2px solid blue;  */
+    margin: 0px;
+    font-size: 20px;
+    padding: 15px;
+}
+#icon{
+    width: 35%;
+    /* border: 2px solid blue; */
+    color:aquamarine;
+    padding-left: 300px;
+    padding-top: 15px;
+
+}
+#search-icon{
+    color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+.li-icon{
+    display:inline;
+    padding: 15px;
+    margin:auto;
+    
+    font-size: 30px;
+}
+#input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px ;
+    border-color:cornflowerblue;
+    width: 75%;
+    font-family: 'Dosis' ;
+    font-weight: 500;
+    text-align:left;
+}
+#search-icon{
+    padding: 5px;
+    background-color:cornflowerblue;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+    color:brown;
+    margin-left:50px;
+    
+}
+#check{
+    display: none;
+}
+@media (max-width:952px){
+    #search{
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .li-icon{
+        padding: 15px;
+        height: 10px;
+        width:50px;
+        font-size: 30px;
+    }
+}
+@media(max-width:858px){
+    .checkbtn {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .checkbtn #close{
+        display: none;
+    }
+    
+    #icon {
+        position: absolute;
+        width: 100%;
+        background-color: darkblue;
+        top: 100px;
+        
+        right:0;
+        align-items: center;
+        overflow: hidden;
+    }
+  
+
+    #search{
+        width: 50%;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 15px;
+       }
+    .li-icon i{
+        display: block;
+        text-align: center;
+        
+    }
+    .li-icon a{
+        text-decoration: none;
+    }
+   #check:checked~ul{
+       left:0;
+   }
+   #check:checked~.checkbtn #menu{
+    display: none;
+}
+  #check:checked~.checkbtn #close{
+      display:inline-block ;
+  }
+  #check:checked~ #icon{
+    height: 50%;
+    
+}
+   #search-icon{
+    padding: 5px;
+    background-color:red ;
+}
+}
+#numcart{
+    padding: 0 30px;
+    background-color: blue;
+    color: black;
+    position: relative;
+    top: -15px;
+    font-weight: bold;
+    border-radius: 5px;
+}

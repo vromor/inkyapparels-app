@@ -1,0 +1,158 @@
+/* Default styles for larger screens (laptops, desktops) */
+
+.bdy {
+  background-image: url("../Assets/pic1.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #cccccc;
+  text-shadow: 3px 3px 6px #000000;
+}
+
+.about {
+  text-align: center;
+  position: relative;
+  padding: 50px;
+  margin: auto;
+}
+
+.about h2 {
+  color: #f47216;
+  font-size: xx-large;
+  padding: 30px;
+}
+
+.about p {
+  display: grid;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.abt-sctn {
+  background-size: 100%;
+  background-color: #f47216;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.contact-section,
+.inr-cntnr {
+  width: 45%;
+  padding-left: 70px;
+  border-radius: 25px;
+  margin: 30px;
+  float: left;
+}
+
+.contact-item {
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: large;
+}
+
+.contact-item h5 {
+  font-weight: 700;
+}
+
+.icon {
+  font-size: 15px;
+}
+
+.inr-cntnr {
+  width: 45%;
+  float: right;
+  background-color: #ffffff;
+  padding: 100px;
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.inr-cntnr h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #f47216;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-floating {
+  margin-bottom: 20px;
+  border: 3px;
+  border-radius: 30%;
+}
+
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: #f47216;
+  border: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  opacity: 80%;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Media queries for smaller screens (mobile) */
+
+@media only screen and (max-width: 768px) {
+  .bdy {
+    height: 300px;
+  }
+
+  .about {
+    padding: 30px;
+  }
+
+  .about h2 {
+    font-size: x-large;
+  }
+
+  .contact-section,
+  .inr-cntnr {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    float: none;
+  }
+
+  .form-floating {
+    margin-bottom: 10px;
+  }
+
+  #btn {
+    font-size: 16px;
+  }
+}
